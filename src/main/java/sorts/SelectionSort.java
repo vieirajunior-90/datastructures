@@ -4,6 +4,14 @@ import java.util.Arrays;
 
 public class SelectionSort {
 
+    /**
+     * Selection sort algorithm
+     * Complexity: O(n^2)
+     * Space: O(1)
+     * @param arr array to sort
+     * @param count variable to keep track of the number of swaps, useful for recursion
+     * @return sorted array
+     */
     public static int[] selectionSort(int[] arr, int count){
         if (count == arr.length){
             return arr;

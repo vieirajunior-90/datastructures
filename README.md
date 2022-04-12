@@ -14,5 +14,5 @@ Summary:
 - [Binary Search](https://github.com/vieirajunior-90/DataStructures/tree/main/src/main/java/binarysearch)
 - [Sorts](https://github.com/vieirajunior-90/DataStructures/tree/main/src/main/java/sorts)
 - [Recursion](https://github.com/vieirajunior-90/DataStructures/tree/main/src/main/java/recursion)
-- [Collections](https://github.com/vieirajunior-90/DataStructures/tree/main/src/main/java/collections)
+- [Collections](https://github.com/vieirajunior-90/DataStructures/tree/main/src/main/java/colections)
 

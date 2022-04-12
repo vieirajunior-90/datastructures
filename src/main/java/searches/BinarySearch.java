@@ -14,7 +14,7 @@ public class BinarySearch {
      * @param end end index of array, we end at length - 1
      * @return index of number if found, -1 if not found
      */
-    public static int binarySearch(int[] arr, int number, int start, int end){
+    private static int binarySearch(int[] arr, int number, int start, int end){
         int mid = (start + end) / 2;
 
         if (start > end){

@@ -11,7 +11,7 @@ public class LinearSearch {
      * @param index index to start searching from, default 0. Used for recursion
      * @return index of number if found, -1 if not found or array is empty
      */
-    public static int linearSearch(int[]arr, int number, int index) {
+    private static int linearSearch(int[]arr, int number, int index) {
         if(arr.length == 0) {
             return -1;
         }

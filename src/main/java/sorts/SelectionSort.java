@@ -12,7 +12,7 @@ public class SelectionSort {
      * @param count variable to keep track of the number of swaps, useful for recursion
      * @return sorted array
      */
-    public static int[] selectionSort(int[] arr, int count){
+    private static int[] selectionSort(int[] arr, int count){
         if (count == arr.length){
             return arr;
         }

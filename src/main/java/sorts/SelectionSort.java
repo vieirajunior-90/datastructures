@@ -31,9 +31,13 @@ public class SelectionSort {
         return selectionSort(arr, count + 1);
     }
 
+    public static int[] selectionSort(int[] arr){
+        return selectionSort(arr, 0);
+    }
+
     // Driver Program
     public static void main(String[] args) {
         int[] array = new int[]{2,4,5,1,3};
-        System.out.println(Arrays.toString(selectionSort(array, 0)));
+        System.out.println(Arrays.toString(selectionSort(array)));
     }
 }

@@ -9,21 +9,21 @@ class LinearSearchTest {
     @Test
     void linearSearch() {
         int[] arr = {1, 2, 3, 4, 5};
-        int result = LinearSearch.linearSearch(arr, 3, 0);
+        int result = LinearSearch.linearSearch(arr, 3);
         assertEquals(2, result);
     }
 
     @Test
     void linearSearchNotFound() {
         int[] arr = {1, 2, 3, 4, 5};
-        int result = LinearSearch.linearSearch(arr, 6, 0);
+        int result = LinearSearch.linearSearch(arr, 6);
         assertEquals(-1, result);
     }
 
     @Test
     void linearSearchEmptyArray() {
         int[] arr = {};
-        int result = LinearSearch.linearSearch(arr, 6, 0);
+        int result = LinearSearch.linearSearch(arr, 6);
         assertEquals(-1, result);
     }
 }

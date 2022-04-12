@@ -34,6 +34,10 @@ public class BinarySearch {
         return binarySearch(arr, number, start, end);
     }
 
+    public static int binarySearch(int[] arr, int number){
+        return binarySearch(arr, number, 0, arr.length - 1);
+    }
+
     // Driver Program
     public static void main(String[] args) {
         int[] nums = new int[]{1, 3, 7, 9, 10, 12, 22, 28, 39, 45, 50, 66, 69, 72, 78, 80, 87, 90, 93, 99};

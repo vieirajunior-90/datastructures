@@ -7,7 +7,7 @@ public class BinarySearch {
      * Complexity: O(log n)
      * Space: O(1)
      * If you are interested in the details of the algorithm, please refer to the following link:
-     * https://www.geeksforgeeks.org/binary-search/
+     * <a href="https://www.geeksforgeeks.org/binary-search/">https://www.geeksforgeeks.org/binary-search/</a>
      * @param arr array to search
      * @param number number to search for
      * @param start start index of array, we start at 0
